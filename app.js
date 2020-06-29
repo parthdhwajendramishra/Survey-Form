@@ -8,9 +8,9 @@ const port=process.env.PORT || 3000
 const app=express()
 
 //Define paths for express config
-const viewspath= path.join(__dirname,'../sqlproject/templates/views')
-const partialPaths= path.join(__dirname,'../sqlproject/templates/partials')
-const publicDirevtoryPath = path.join(__dirname,'../sqlproject/public')
+const viewspath= path.join(__dirname,'../templates/views')
+const partialPaths= path.join(__dirname,'../templates/partials')
+const publicDirevtoryPath = path.join(__dirname,'../public')
 
 
 //setup handlebars engine an view location
