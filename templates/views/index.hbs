@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Home</title>
+   <link rel="icon" href="/img/logo.png">
+   <link rel="stylesheet" href="./css/style.css"> 
+</head>
+
+<body> 
+   <div class="main-content">
+      {{>header}}
+         <form name="my" id="newForm">
+            <input name="fname" placeholder="First Name"><br><br>
+            <input name="mname" placeholder="Middle Name"><br><br>
+            <input name="lname" placeholder="Last Name" ><br><br>
+            <input name="state" placeholder="State"><br><br>
+            <input name="city" placeholder="City"><br><br>
+            <input name="email" placeholder="Email"><br><br>
+            <input name="favbook" placeholder="Favourite Book" ><br><br>
+            <input name="favpoem" placeholder="Favourite Poem"><br><br>
+            <button>Submit</button>
+         </form>        
+         <script src="js/app.js"></script> 
+         
+   </div>
+  
+   {{>footer}}
+</body>
+</html>
