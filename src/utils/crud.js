@@ -1,5 +1,5 @@
 var mysql = require('mysql');
-let config = require('./src/utils/config.js');
+let config = require('./config.js');
 
 
 const createTable=(tablename)=>{

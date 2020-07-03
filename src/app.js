@@ -1,8 +1,8 @@
-const db= require('./crud.js');
+const db= require('./utils/crud.js');
 const express= require('express')
 const path=require('path')
 const hbs=require('hbs')
-const mail=require('./email.js')
+const mail=require('./utils/email.js')
 
 const port=process.env.PORT || 3000
 const app=express()
