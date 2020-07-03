@@ -2,7 +2,7 @@
   "name": "sqlproject",
   "version": "1.0.0",
   "description": "A trial for database on heroku",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js -e js,hbs"
@@ -14,7 +14,8 @@
     "hbs": "^4.1.1",
     "mysql": "^2.18.1",
     "nodemailer": "^6.4.10",
-    "nodemon": "^2.0.4",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
 }
