@@ -1,10 +1,10 @@
 const db= require('./utils/crud.js');
-const express= require('express')
+const express=require('express')
 const path=require('path')
 const hbs=require('hbs')
 const mail=require('./utils/email.js')
 
-const port=process.env.PORT || 3000
+const port=process.env.PORT || 3000 
 const app=express()
 
 //Define paths for express config
@@ -27,7 +27,7 @@ app.get('',(req,res)=>{
         name:'Parthdhwajendra'
     })
 })
-
+  
 
 app.get('/testing',(req,res)=>{
    
@@ -41,8 +41,6 @@ app.get('/testing',(req,res)=>{
     db.addRow(values,"datatable");
     mail.send_email(req.query.email);
 })
-
-
 
 
 app.get('/about',(req,res)=>{
